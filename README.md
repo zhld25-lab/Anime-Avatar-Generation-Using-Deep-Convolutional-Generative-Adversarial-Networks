@@ -9,6 +9,8 @@ The model is trained on an anime face dataset containing 2500 RGB images with a 
 
 ## Model
 The DCGAN architecture consists of a Generator and a Discriminator trained in an adversarial framework.
+Generator: generates anime faces from random noise.  
+Discriminator: distinguishes between real and generated images.
 
 ## Training
 Optimizer: Adam  
